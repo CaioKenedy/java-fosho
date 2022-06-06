@@ -10,4 +10,5 @@
         <maven.compiler.target>12</maven.compiler.target>
         <exec.mainClass>estruturafor.EstruturaFor</exec.mainClass>
     </properties>
+    <name>estruturas</name>
 </project>
