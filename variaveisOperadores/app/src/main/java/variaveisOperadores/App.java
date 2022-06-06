@@ -6,6 +6,10 @@ package variaveisOperadores;
 public class App {
     
     public static void main(String[] args) {
-        System.out.println("ola");
+        int idade;
+        float cotacaoDolar = 5.0f;
+        double cotacaoEuro = 6.35d;
+        char genero = 'M';
+        String nome = "Nesse usa aspas duplas";
     }
 }
