@@ -1,17 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
 
 package heranca;
 
-/**
- *
- * @author caiok
- */
+import java.util.Date;
+
+
 public class Heranca {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        vendedor v = new vendedor();
+        v.setName("Caio");
+        v.setSalario(1000.0f);
+        v.setCpf("123456789022");
+        v.setDataNascimento(new Date());
+        v.setComissao(10);
+        v.setTotalVendas(10);
+        
+        System.out.println("o salario do vendedor é: " + v.calcularSalario());
+        
+        motorista m = new motorista();
+        
     }
 }
