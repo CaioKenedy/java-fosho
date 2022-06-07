@@ -5,8 +5,9 @@ public class Pessoa {
     private float peso;
     private float altura;
 
-    public Pessoa() {
-        System.out.println("teste");
+    public Pessoa(float peso, float altura) {
+        this.peso = peso;
+        this.altura = altura;
     }
 
     public float calcularIMC() {

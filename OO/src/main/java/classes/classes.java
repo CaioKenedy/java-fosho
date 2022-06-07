@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class classes {
     public static void main(String[] args) {
         
-        Pessoa objetoPessoa = new Pessoa();  
+        Pessoa objetoPessoa = new Pessoa(72.0f, 1.72f);  
         
         Scanner leitor = new Scanner(System.in);
         
