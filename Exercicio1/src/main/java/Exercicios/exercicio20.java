@@ -39,7 +39,7 @@ public class exercicio20 {
             System.out.println("O desconto é de" + desconto
                     + "o valor final é de: " + valorFinal
                     + "e o total de carros antigos é: "
-                    + totalCarrosAntigos + "enquanto os novos são: "
+                    + totalCarrosAntigos + "enquanto o total são: "
                     + totalCarros);
 
             System.out.println("Deseja continuar? S - Sim / N - Não");
